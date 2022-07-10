@@ -1,0 +1,26 @@
+.outerDiv {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 300px);
+    overflow-x: scroll;
+  }
+  
+  .innerDiv {
+    width: 300px;
+    height: 200px;
+    color: rgba(3, 33, 48, 0.932);
+    margin: 10px;
+    padding:10px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    transition: 1s;
+  }
+  .innerDiv:hover{
+      transform: scale(1.05);
+      box-shadow: 3px 3px 3px 1px rgb(122, 129, 133);
+      
+  }
+  a {
+    color: #000000;
+}

@@ -1,0 +1,10 @@
+.cardAll{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/walking-hiking-in-tirol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

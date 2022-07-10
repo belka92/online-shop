@@ -1,0 +1,91 @@
+.log1{
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.log1 form {
+    display: grid;
+    width: 300px;
+    
+}
+
+.log1 h4{
+    
+    height: 30px;
+    width: 50px;
+    background-color: rgba(255,255,255,0.13);
+        position: relative;
+        transform: translate(-50%,-50%);
+        top: 250px;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+        /* padding: 50px 35px; */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    
+}
+
+.formIn form{
+    
+       min-height: 400px;
+        width: 350px;
+        background-color: rgba(255,255,255,0.13);
+        position: relative;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+        padding: 50px 35px;
+    
+}
+
+.formUp form{
+    
+    min-height: 500px;
+    width: 350px;
+    background-color: rgba(255,255,255,0.13);
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    margin-bottom: 100px;
+}
+
+.inpLog{
+    display: flex;
+    height: 40px;
+    width: 270px;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.inpLog::placeholder{
+    color:rgb(24, 23, 23)
+}
+/* .inpSub{
+    background-color: rgba(161, 147, 243, 0.3);  
+
+
+} */

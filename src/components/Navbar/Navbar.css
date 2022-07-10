@@ -1,0 +1,193 @@
+.header_div{
+    width: 100%;
+    min-height: 1000px;
+    background-image: url('./img/hikeshop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.NavbarItems{
+    background: rgba(0,0,0,0.3);
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.1rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.navbar-logo{
+    color:#fff;
+    justify-self: start;
+    width: 10%;
+    min-width: 300px;
+    cursor: pointer;
+    font-weight: 550;
+    letter-spacing: 2px;
+
+}
+.imgLogo{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.nav-menu {
+    display: flex;
+    grid-template-columns: repeat(auto-fit,50px);
+    /* grid-gap: 30px; */
+    list-style: none;
+    text-align: center;
+    width: 50%;
+    min-width: 300px;
+    justify-content: end;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    
+ 
+}
+
+
+.nav-links{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover{
+    background-color:rgba(255,255,255,0.2);
+    color: black;
+    border-radius: 4px;
+    transition: all 0,2s ease-out;
+
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+.nav-links-mobile{
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+}
+.navbar_icon{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    min-width: 300px;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.inserach{
+    height: 40px;
+    background-color: #617584;
+    border: none;
+    outline: none;
+}
+.inserach::placeholder{
+    color: #fff;
+}
+
+
+@media screen and (max-width:960px){
+    .NavbarItems{
+        position: relative;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 550px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active{
+        background: rgba(0,0,0,0.3);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        
+    }
+
+    .nav-links{
+        text-align: center;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover{
+        background-color: rgba(255,255,255,0.2);
+        color: #fff;
+        border-radius: 0;
+        
+    }
+
+    .navbar-logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%,50%);
+
+       
+    }
+
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top:0;
+        right: 0;
+        transform: translate(-100%,60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times{
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .nav-links-mobile{
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        background:white;
+        text-decoration: none;
+        color: black;
+        font-size: 1,5rem;
+
+
+    }
+
+    .nav-links-mobile:hover{
+        background: #fff;
+        transition: 250ms;
+    }
+
+
+
+}

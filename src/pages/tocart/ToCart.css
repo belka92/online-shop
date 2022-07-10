@@ -1,0 +1,21 @@
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-color: darkcyan;
+}
+
+tr {
+    display: flex;
+    margin: 20px;
+    border: 2px solid;
+}
+
+td{
+    padding: 10px;
+}
